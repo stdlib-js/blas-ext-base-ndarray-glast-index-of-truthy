@@ -1,5 +1,32 @@
-"use strict";var n=function(i,r){return function(){try{return r||i((r={exports:{}}).exports,r),r.exports}catch(e){throw (r=0, e)}};};var u=n(function(g,t){
-var v=require('@stdlib/ndarray-base-ndarraylike2scalar/dist'),s=require('@stdlib/ndarray-base-numel-dimension/dist'),d=require('@stdlib/ndarray-base-clip-upper-index/dist'),q=require('@stdlib/ndarray-base-stride/dist'),f=require('@stdlib/ndarray-base-offset/dist'),x=require('@stdlib/ndarray-base-data-buffer/dist'),c=require('@stdlib/blas-ext-base-glast-index-of-truthy/dist').ndarray;function l(i){var r,e,a;return a=i[0],r=v(i[1]),e=s(a,0),r=d(r,r<0?e:e-1),r<0?-1:c(r+1,x(a),q(a,0),f(a))}t.exports=l
-});var o=u();module.exports=o;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Return the index of the last truthy element in a one-dimensional ndarray.
+*
+* @module @stdlib/blas-ext-base-ndarray-glast-index-of-truthy
+*
+* @example
+* var scalar2ndarray = require( '@stdlib/ndarray-from-scalar' );
+* var vector = require( '@stdlib/ndarray-vector-ctor' );
+* var glastIndexOfTruthy = require( '@stdlib/blas-ext-base-ndarray-glast-index-of-truthy' );
+*
+* var x = vector( [ 0.0, 3.0, 0.0, 2.0 ], 'generic' );
+*
+* var fromIndex = scalar2ndarray( 3, {
+*     'dtype': 'generic'
+* });
+*
+* var v = glastIndexOfTruthy( [ x, fromIndex ] );
+* // returns 3
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
