@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-30)
+## Unreleased (2026-11-16)
 
 <section class="features">
 
@@ -35,6 +35,7 @@
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`7e7e7b5`](https://github.com/stdlib-js/stdlib/commit/7e7e7b5718b0d9e7c61a6bb1a997bf684660c792) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-truthy` [(#14652)](https://github.com/stdlib-js/stdlib/pull/14652) _(by Muhammad Haris)_
 -   [`5f19478`](https://github.com/stdlib-js/stdlib/commit/5f19478aeb621307445498247ddffd4207c96574) - **feat:** add `blas/ext/base/ndarray/glast-index-of-truthy` [(#14304)](https://github.com/stdlib-js/stdlib/pull/14304) _(by Muhammad Haris, Athan Reines)_
 
@@ -48,10 +49,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
